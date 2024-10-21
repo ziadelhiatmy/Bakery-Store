@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+}
+
+.fsection h1{
+font-size: 60px;
+font-family: "Alegreya";
+}
+.fsection{
+ background-image: url(bakery1.jpg);
+    background-size: 100% 90%;
+    height: 90vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    
+
+}
+.fsection img{
+    margin-right: 70%;
+    width: 200px;
+    padding-bottom: 7%;
+ cursor: pointer;
+    
+}
+.fsection p{
+    font-family: "Alegreya Sans";
+    padding: 40px;
+    font-size: 20px;
+}
+.btn{
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    font-family: "Alegreya Sans";
+ font-size: 20px;
+ background-color: transparent;
+ color: white;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: color 0.5s , background-color 0.5s; 
+}
+.btn1{
+    background-color: #8e7754;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btn2{
+    border: white solid 1px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.parent{
+   
+    background-size: 100% 100%;
+    float: left;
+    width: 80%;
+    padding: 50px;
+    margin-bottom: 50px;
+    
+}
+.secendSec img{
+    float: left;
+    margin-left: 20% ;
+    padding-right: 50px;
+    width: 600px;
+}
+.secendSec p,h2{
+padding: 20px;
+
+  font-family: "Alegreya Sans";
+ 
+}
+.secendSec h2{
+font-size: 40px;
+font-family: "Alegreya", serif;
+color: rgb(70, 68, 68);
+}
+.secendSec p{
+    font-size: 25px;
+   color:  rgb(143, 143, 143);
+       padding-top: 20px;
+
+}
+.clearFix{
+    clear: both;
+}
+  .parent2{ 
+    /* background-size: 100% 100%; */
+     /* float: left; */
+    /* width: 100%; */
+     background-color: rgb(243, 243, 243); 
+    /* margin: auto;  */
+    padding-top: 5%;
+}
+.thrdSec h2{
+   
+    font-size: 40px;
+    font-family: "Alegreya", serif;
+    color: rgb(70, 68, 68);
+  padding-bottom: 50px;
+  
+
+}
+.thrdSec img{
+    width: 25%;
+    padding-left: 10%;
+}
+.thrdSec p{
+    width: 30%;
+   float: left;
+    font-family:  "Alegreya Sans";
+    font-size: 25px;
+    color: rgb(143, 143, 143)
+} 
+.thrdSec p,h2{
+    padding-left: 20%;
+}
+
+
+.parent3{
+
+}
+.fourthSec{
+   
+
+   width: 25%;
+   float: left;
+    text-align: center;
+    padding: 3%;
+}
+
+.clearFix{
+    clear: both;
+}
+.parent3 .OurBaking {
+padding-left: 45%;
+font-size: 40px;
+    font-family: "Alegreya", serif;
+    color: rgb(70, 68, 68);
+  padding-bottom: 50px;
+  
+}
+ .lastparagraf{
+    padding-left: 25%;
+        font-size: 25px;
+       color:  rgb(143, 143, 143);
+}
+.fourthSec img{
+    width: 400px;
+}
+footer{
+    background-color: #686868;
+    height: 20%;
+  text-align: center;
+  padding-top: 10%
+}
+@media screen and (max_width :1200px) and (min_width:992px){
+    div{
+        width: 25%;
+    }
+}
+@media screen and (max_width:992px) and (min_width:768px){
+    div{
+        width: 33%;
+    }
+}
+@media screen and (max_width:768px) and (min_width:600px){
+   div{
+        width: 50%;
+    }
+}
+@media screen and (max_width:600px) and (min_width:0px){
+    div{
+        width: 100%;
+    }
+}
